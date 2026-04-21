@@ -1,0 +1,7 @@
+.vscode/
+.idea/
+*.lnk
+*.pptx
+*.pdf
+*.docx
+node_modules/
