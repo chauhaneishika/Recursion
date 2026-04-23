@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class FunctionCallingItself {
     public static void main(String[] args) {
-        print(5);
+        //print(5);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        print(n);
     }
     public static void print(int n) {
         if(n == 0) return;
