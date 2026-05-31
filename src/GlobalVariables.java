@@ -18,3 +18,5 @@ public class GlobalVariables {
         x = 20;
     }
 }
+
+
