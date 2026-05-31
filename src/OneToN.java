@@ -1,14 +1,29 @@
 import java.util.Scanner;
 
 public class OneToN {
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
+    //     Scanner sc = new Scanner(System.in);
+    //     int n = sc.nextInt();
+    //     print(1, n);
+    // }
+    // public static void print(int x,int n) {
+    //     if(x > n) return;
+    //     System.out.println(x);
+    //     print(x+1, n);
+    // }
+
+    //using global variable
+
+    static int n;
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        print(1, n);
+        n = sc.nextInt();
+        print(1);
     }
-    public static void print(int x,int n) {
+    public static void print(int x) {
         if(x > n) return;
-        System.out.println(x);
-        print(x+1, n);
+        System.out.print(x+ " ");
+        print(x+1);
     }
 }
+
