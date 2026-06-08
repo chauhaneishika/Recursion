@@ -5,11 +5,11 @@ public class PreInPost {
 
     public static void pip(int n) {
         if(n == 0) return;
-        System.out.print(n+" "); //Pre
+        System.out.print("Pre "+n+" "); //Pre
         pip(n-1);
-        System.out.print(n+" "); //In
+        System.out.print("In "+n+" "); //In
         pip(n-1);
-        System.out.print(n+" "); //Post
+        System.out.print("Post "+n+" "); //Post
     }
 }
 
